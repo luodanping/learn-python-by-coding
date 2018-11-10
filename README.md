@@ -1,6 +1,5 @@
 # learn-python-by-coding
-
-将分以下几个章节展开：
+note=》将分以下几个章节展开：
 1. python基础
 2. 函数
 3. 类

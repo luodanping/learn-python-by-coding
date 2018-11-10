@@ -23,7 +23,7 @@ def main():
     command_stack=[]
 
     #command are just pushed into the command stack
-    command_stack.append(MoveFileCommand('foo.txt','bar.txt'))
+    command_stack.append(MoveFileCommand('foo.txt','bar.txt')) #需要在当前目录下创建foo.txt文件之后，再运行本程序
     command_stack.append(MoveFileCommand('bar.txt', 'baz.txt'))
 
     #they can be executed into the command stack
